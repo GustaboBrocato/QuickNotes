@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QuickNotes</string>
+    <string name="ListaNotas">Lista de Notas</string>
+    <string name="AgregarNota">Agregar Nota</string>
+    <string name="Agregar">Agregar</string>
+    <string name="Titulo">Ingrese el título de la nota</string>
+    <string name="Contenido">Ingrese el contenido de la nota</string>
+    <string name="Guardar">Guardar</string>
+    <string name="ActualizarNota">Actualizar Nota</string>
+    <string name="VerNotas">Ver Notas</string>
+    <string name="NuevaNota">Nueva Nota</string>
+    <string name="Integrantes">                                    <center>Integrantes - Grupo #1</center>\n\n
+
+Aleks Xavier Pineda Macias                 - 2021100601734\n
+Claudia Verónica Rodríguez Paz          - 201910010134\n
+Gustavo Ariel Brocato Medina            - 202010030250\n
+Jensy Lorena Villafranca Navarro        - 202110120039\n
+Jonathan Ignacio Marley Ramírez       - 201920060176\n
+Kency Angely Rosa Paz                        - 202110050072\n
+Kevin Daniel Elwin Canaca                  - 202110070053</string>
+</resources>
