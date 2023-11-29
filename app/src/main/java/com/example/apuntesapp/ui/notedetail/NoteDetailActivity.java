@@ -2,6 +2,8 @@ package com.example.apuntesapp.ui.notedetail;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import com.example.apuntesapp.R;
 import com.example.apuntesapp.model.Note;
@@ -28,6 +30,7 @@ public class NoteDetailActivity extends AppCompatActivity {
 
     public static final String EXTRA_NOTE_TITLE = "extra_note_title";
     public static final String EXTRA_NOTE_CONTENT = "extra_note_content";
+    private ImageButton btnAtras;
 
     /**
      * Método llamado al crear la actividad.
@@ -41,6 +44,7 @@ public class NoteDetailActivity extends AppCompatActivity {
 
         // Busca la vista personalizada NoteView en el diseño de la actividad
         NoteView noteView = findViewById(R.id.customNoteView);
+        btnAtras = findViewById(R.id.imagebuttonListaAtrasDetail);
 
         // Obtiene los detalles de la nota desde el intent
         String title = getIntent().getStringExtra(EXTRA_NOTE_TITLE);
@@ -51,5 +55,12 @@ public class NoteDetailActivity extends AppCompatActivity {
 
         // Configura la vista personalizada NoteView con los datos de la nota
         noteView.setNoteData(note);
+
+        btnAtras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }
